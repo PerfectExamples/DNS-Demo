@@ -62,6 +62,7 @@ $ .build/debug/dns [domain name 1] [domain name 2] ....
 比如，以下例子可以用来解析 [perfect.org](http://perfect.org) 和 [treefrog.ca](http://treefrog.ca) 的 IP 地址：
 
 ```
+$ ./.build/debug/dns perfect.org treefrog.ca
 ./.build/debug/dns
 perfect.org 65.39.133.132
 treefrog.ca 23.92.17.203

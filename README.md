@@ -62,6 +62,7 @@ $ .build/debug/dns [domain name 1] [domain name 2] ....
 For example, try this command below to parse ip address from [perfect.org](http://perfect.org) and [treefrog.ca](http://treefrog.ca):
 
 ```
+$ ./.build/debug/dns perfect.org treefrog.ca
 ./.build/debug/dns
 perfect.org 65.39.133.132
 treefrog.ca 23.92.17.203
